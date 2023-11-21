@@ -2,13 +2,14 @@
 Using profiles with Dependency Injection
 
 ## Introduction
-This application illustrates Profiles (Modes) usage with Injector library. This technique can be handy to build
-few environments like: development, test, production (default).
+This application illustrates Profiles (Modes) usage with [Injector](https://github.com/python-injector/injector)
+library. This technique can be handy to build few environments like: development, test, production (default).
 
 ## Run
 This application supports two running profiles: 
 - default
 - development
+
 To run application execute one of the:
 ```
 injector_example_main.py --Profile default
