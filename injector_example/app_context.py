@@ -7,7 +7,7 @@ from injector_example.processor_service import ProcessorService
 from injector_example.profiles import Profiles
 
 
-class Application:
+class ApplicationContext:
 
     def __init__(self, profile):
         self.__injector = Injector()
