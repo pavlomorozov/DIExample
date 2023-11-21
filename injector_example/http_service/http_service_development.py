@@ -5,7 +5,7 @@ from injector_example.http_service.http_service import HTTPService
 
 
 class HTTPDevelopmentService(HTTPService):
-    @inject
+
     def __init__(self):
         filename = 'injector_example/http_service/response_samples/fundamentals_development.json'
         f = open(filename)

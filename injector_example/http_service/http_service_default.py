@@ -6,7 +6,6 @@ from injector_example.http_service.http_service import HTTPService
 
 class HTTPDefaultService(HTTPService):
 
-    @inject
     def __init__(self):
         pass
 
